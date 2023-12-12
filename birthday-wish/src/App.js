@@ -2,6 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var first = 'Shoaib';
+  var second = 'Ayaan';
+  var quizPased = true;
+  if(quizPased){
+    return(
+      <div>
+
+      </div>
+    )
+  }else{
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +30,7 @@ function App() {
       </header>
     </div>
   );
+  }
 }
 
 export default App;
