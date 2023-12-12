@@ -66,13 +66,13 @@ function App() {
       ) : (
         <div>
           <div class="birthday-container">
-        <img id="birthday-pic" src="E:\Shoaib\FunWithCoding\HappyBirthday\birthday-wish\Saman\zeeeee.jpg" alt="Beautiful Zeenia" />
+        <img id="birthday-pic" src="https://github.com/dptspartan/HappyBirthday/blob/d48b59ea1519fcc5c248cadee56ed3619ed5ee5a/birthday-wish/Saman/zeeeee.jpg" alt="Beautiful Zeenia" />
         <h1>Happy Birthday!</h1>
         <link rel="stylesheet" href="Untitled-1.css" />
         <h3>Press Play!</h3>
         <h6>Bcuz auto play not working </h6>
         <audio controls autoplay>
-        <source src="E:\Shoaib\FunWithCoding\HappyBirthday\birthday-wish\Saman\song.mp3" type="audio/mp3" />
+        <source src="https://github.com/dptspartan/HappyBirthday/blob/d48b59ea1519fcc5c248cadee56ed3619ed5ee5a/birthday-wish/Saman/song.mp3" type="audio/mp3" />
         </audio>
     </div>
         </div>
