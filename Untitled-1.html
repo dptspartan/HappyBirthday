@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <div id="confetti-container"></div>
+    <div class="birthday-container">
+        <img id="birthday-pic" src="https://github.com/dptspartan/HappyBirthday/blob/main/birthday-wish/Saman/zeeeee.jpg" alt="Beautiful Zeenia">
+        <h1>Happy Birthday!</h1>
+        <link rel="stylesheet" href="Untitled-1.css">
+        <h3>Press Play!</h3>
+        <h6>Bcuz auto play not working ;)</h6>
+        <audio controls autoplay>
+        <source src="https://github.com/dptspartan/HappyBirthday/blob/main/birthday-wish/Saman/song.mp3" type="audio/mp3">
+        </audio>
+    </div>  
+    <script>
+        particlesJS("confetti-container", {
+            particles: {
+                number: {
+                    value: 100,
+                },
+                size: {
+                    value: 3,
+                },
+            },
+            interactivity: {
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse",
+                    },
+                },
+            },
+        });
+    </script>
+</body>
+</html>
+
+   
